@@ -14,6 +14,9 @@
 해당 폴더는 특징 추출했던 폴더입니다. 본래의 해당 폴더가 없었고 특징 추출했던 파일과 모델 훈련한 파일이 섞여있어 따로 폴더를 나눴을 뿐, 해당 폴더에 중복되어있는 model폴더와 facialFeatureExtraction.py파일은 그 밖에 있는 것들과 같은 것입니다.
 #### facialFeatureAI.ipynb
 - 표정 특징을 추출하는 AI를 만든 파일입니다. 단순히 특징을 추출할 뿐이라 훈련과정이 없습니다.
+- Tensorflow, Keras를 사용한 AI라 구조 파일과 가중치 파일, 2개로 나옵니다.
+- 완성된 모델 구조 파일 : model/featureAI/featureAI.json
+- 완성된 모델 가중치 파일 : model/featureAI/weights.hdf5
 #### model/featureAI
 - 해당 폴더에 있는 파일들은 표정 특징을 추출해주는 AI의 구조와 가중치가 저장돼있는 파일입니다.
 #### facialFeatureExtraction.py
@@ -25,11 +28,13 @@
 - 텍스트, 이미지, 음성 특징을 추출하여 저장한 파일입니다.
 ---
 ### text_audio_train.ipynb
-- 텍스트, 음성 특징을 이용하여 감정 분석하는 AI를 훈련한 파일입니다.
+- 텍스트, 음성 특징을 이용하여 감정 분석하는 AI를 훈련한 파일입니다. (Pytorch)
+- 완성된 모델 가중치 파일 : model/text_audio_model_53.pth
 - 훈련 데이터셋 개수 : 260171개
 - 정확도 : 52.21%
 ### additional_train_addImageLayer.ipynb
-- 텍스트, 음성에서 이미지 레이어를 추가하여 AI를 파인튜닝한 파일입니다.
+- 텍스트, 음성에서 이미지 레이어를 추가하여 AI를 파인튜닝한 파일입니다. (Pytorch)
+- 완성된 모델 가중치 파일 : text_image_audio_model.pth
 - 훈련 데이터셋 개수 : 10350개
 - 정확도 : 75.41%
 
