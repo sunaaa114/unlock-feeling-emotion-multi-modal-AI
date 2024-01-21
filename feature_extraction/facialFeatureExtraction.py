@@ -31,7 +31,7 @@ def facialFeature(path):
     return prediction
 
 
-# 동영상 특징 추출 (동영상이 있는 디렉토리 경로와 자르고 싶은 ms단위 입력)
+# 동영상 특징 추출 (동영상이 있는 경로와 자르고 싶은 ms단위 입력)
 def facialVideoFeature(video_path, ms):
     video = cv2.VideoCapture(video_path)
     
