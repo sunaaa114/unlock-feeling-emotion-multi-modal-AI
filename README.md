@@ -17,8 +17,6 @@
 - Tensorflow, Keras를 사용한 AI라 구조 파일과 가중치 파일, 2개로 나옵니다.
 - 완성된 모델 구조 파일 : model/featureAI/featureAI.json
 - 완성된 모델 가중치 파일 : model/featureAI/weights.hdf5
-#### model/featureAI
-- 해당 폴더에 있는 파일들은 표정 특징을 추출해주는 AI의 구조와 가중치가 저장돼있는 파일입니다.
 #### facialFeatureExtraction.py
 - 표정 특징을 추출해주는 파일입니다.
 - model/featureAI에 있는 표정 특징 추출 AI를 사용하여 이미지 폴더 경로나 동영상의 경로를 넣으면 특징을 추출해 반환해줍니다.
