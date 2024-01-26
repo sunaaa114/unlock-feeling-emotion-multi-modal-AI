@@ -1,7 +1,7 @@
 # unlock-feeling-emotion-multi-modal-AI
 텍스트(text), 이미지(image), 음성(audio)을 이용하여 감정 분석하는 AI\
 감정 종류 : 행복(Happy), 놀람(Surprise), 중립(Expressionless), 공포(Fear), 혐오(Aversion), 분노(Angry), 슬픔(Sad)\
-정확도(Accuracy) : 75.41%\
+validation 정확도(validation Accuracy) : 75.41%\
 텍스트, 이미지, 음성의 특징을 따로 먼저 추출하여 저장한 다음, 추출한 특징을 input값으로 넣어 만든 multi modal AI입니다.\
 훈련 속도를 절감하고 메모리 절약을 위해 이와같이 진행하였습니다.\
 \
