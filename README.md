@@ -29,12 +29,12 @@
 - 텍스트, 음성 특징을 이용하여 감정 분석하는 AI를 훈련한 파일입니다. (Pytorch)
 - 완성된 모델 가중치 파일 : model/text_audio_model_53.pth
 - 훈련 데이터셋 개수 : 260171개
-- 정확도 : 52.21%
+- validation 정확도 : 52.21%
 ### additional_train_addImageLayer.ipynb
 - 텍스트, 음성에서 이미지 레이어를 추가하여 AI를 파인튜닝한 파일입니다. (Pytorch)
 - 완성된 모델 가중치 파일 : text_image_audio_model.pth
 - 훈련 데이터셋 개수 : 10350개
-- 정확도 : 75.41%
+- validation 정확도 : 75.41%
 
 ### final_emotion_analysis.py
 - 완성된 AI를 이용하여 동영상을 넣으면 감정분석해주는 파일입니다.
