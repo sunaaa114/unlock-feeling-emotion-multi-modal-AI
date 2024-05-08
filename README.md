@@ -1,14 +1,13 @@
 # unlock-feeling-emotion-multi-modal-AI
-텍스트(text), 이미지(image), 음성(audio)을 이용하여 감정 분석하는 AI\
-감정 종류 : 행복(Happy), 놀람(Surprise), 중립(Expressionless), 공포(Fear), 혐오(Aversion), 분노(Angry), 슬픔(Sad)\
-validation 정확도(validation Accuracy) : 75.41%\
-텍스트, 이미지, 음성의 특징을 따로 먼저 추출하여 저장한 다음, 추출한 특징을 input값으로 넣어 만든 multi modal AI입니다.\
-훈련 속도를 절감하고 메모리 절약을 위해 이와같이 진행하였습니다.\
-\
-해당 AI는 2023년 덕성여자대학교 컴퓨터공학 졸업 프로젝트를 위해 만들어졌습니다.
+- 텍스트(text), 이미지(image), 음성(audio)을 이용하여 감정 분석하는 AI
+- 감정 종류 : 행복(Happy), 놀람(Surprise), 중립(Expressionless), 공포(Fear), 혐오(Aversion), 분노(Angry), 슬픔(Sad)
+- validation 정확도(validation Accuracy) : 75.41%
+- 텍스트, 이미지, 음성의 특징을 따로 먼저 추출하여 저장한 다음, 추출한 특징을 input값으로 넣어 만든 multi modal AI입니다.\
+훈련 속도를 절감하고 메모리 절약을 위해 이와같이 진행하였습니다.
+- 해당 AI는 2023년 덕성여자대학교 컴퓨터공학 졸업 프로젝트를 위해 만들어졌습니다.
 ## 만든 이
-조선아(Cho Suna) : 이미지 특징 추출, 멀티 모달, 파인튜닝 작업\
-이예원(Lee Yewon) : 텍스트와 음성 특징 추출, 멀티 모달
+- 조선아(Cho Suna) : 이미지 특징 추출, 멀티 모달, 파인튜닝 작업
+- 이예원(Lee Yewon) : 텍스트와 음성 특징 추출, 멀티 모달
 ## 사용법
 ### feature_extraction
 해당 폴더는 특징 추출했던 폴더입니다. 본래의 해당 폴더가 없었고 특징 추출했던 파일과 모델 훈련한 파일이 섞여있어 따로 폴더를 나눴을 뿐, 해당 폴더에 중복되어있는 model폴더와 facialFeatureExtraction.py파일은 그 밖에 있는 것들과 같은 것입니다.
